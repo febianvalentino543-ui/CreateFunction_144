@@ -14,13 +14,13 @@ if (input_unit == 'c'):
     print(f"{input_value} derajat Celsius = {konversi} derajat Fahrenheit")
 elif (input_unit == 'f'):
     print(f"{input_value} derajat Fahrenheit = {konversi} derajat Celsius")
-    
+ 
 
 #mencari dan menghitung nilai lambda
 
 r = float(input("Masukkan jari-jari lingkaran: "))
-def luas_lingkaran(r):
-    return 3.14 * r * r
+def hitung_lamda (r):
+    return 3.14 * r ** 2  
 
-luas = luas_lingkaran(r)
+luas = hitung_lamda(r)
 print(f"Luas lingkaran dengan jari-jari {r} adalah {luas}")
